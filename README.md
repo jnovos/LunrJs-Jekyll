@@ -34,6 +34,13 @@ lunr_folder_json: '/_site/assets/json' #
 folder_lunar_js: '/_site/assets/js/lunr/lunr.js' # folder to javascript lunrjs
 ```
 
+Add into Front Matter block:
+
+```yml
+metadata:
+    tags: gems,ruby,develop
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/jnovos/LunrJs-Jekyll/fork )
