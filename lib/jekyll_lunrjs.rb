@@ -13,8 +13,8 @@ module Jekyll
     lunr_config_boost = site.config["lunr_config_boost"]
     
     #This is specific to indexing with lunrjs
-    #lunr_config_id = {:id => 'id'} # structure of index
-    #lunr_config_boost= {:fields => {:title => 10, :tag => 20}} #structure for boost
+    lunr_config_id = {:id => 'id'} # structure of index
+    lunr_config_boost= {:fields => {:title => 10, :tag => 20}} #structure for boost
     lunr_config = lunr_config_boost.merge(lunr_config_id)
 
     #The path to the files
