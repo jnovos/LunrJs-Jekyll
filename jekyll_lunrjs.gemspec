@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Jorge Novo"]
   s.email       = "jnovos@gmail.com"
 
-  s.homepage = "https://github.com/jnovos/lunarjs-jekyll"
+  s.homepage = "https://github.com/jnovos/LunrJs-Jekyll"
   s.licenses = ["MIT"]
   s.files    = ["lib/jekyll_lunrjs.rb"]
 
